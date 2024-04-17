@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* <<============================== ALL ==============================>> */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+
+/* <<============================== HEADER ==============================>> */
+
+nav {
+    padding: 20px;
+    display: flex;
+}
+
+.left,
+.right {
+    display: inline-block;
+}
+
+.left {
+    position: absolute;
+    left: 155px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 17px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+
+.right {
+    /* position: absolute; */
+    /* right: 140px; */
+    margin-left: auto;
+    vertical-align: middle;
+    font-size: 15px;
+    padding: 20px;
+    padding-right: 125px;
+}
+
+.triangle {
+    font-size: 0.75em;
+}
+
+.left,
+.right ul li a {
+    cursor: pointer;
+}
+
+.right ul li :hover {
+    font-weight: bold;
+    transition: 0.4s ease;
+
+}
+
+/* <<============================== MAIN ==============================>> */
+
+main {
+    text-align: center;
+    padding: 25px;
+}
+
+.heading_01 {
+    font-size: 45px;
+}
+
+.para_01 {
+    font-size: 23px;
+    margin: 30px;
+}
+
+.download_button {
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 17px;
+}
+
+.download_button:hover {
+    background-color: rgb(80, 119, 192);
+    transition: 0.4s ease;
+}
+
+.main_01 {
+    padding: 15px;
+    margin: 15px;
+}
+
+.logo_02,
+.text_l,
+.text_s {
+    vertical-align: middle;
+}
+
+.text_l {
+    font-size: 24px;
+}
+
+.text_s {
+    font-size: 13px;
+}
+
+.main_02 {
+    position: absolute;
+    left: 270px;
+    padding: 50px 0px;
+}
+
+.main_03 {
+    display: grid;
+    grid-template-areas: "box box box";
+    justify-content: center;
+    row-gap: 25px;
+    column-gap: 30px;
+    margin-top: 175px;
+    margin-bottom: 50px;
+}
+
+.box {
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.box .lang_01 {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.box .lang_02 {
+    font-size: 13px;
+    padding: 15px 0px 25px 0px;
+}
+
+.box_eng .lang_02 {
+    padding: 15px 0px 40px 0px;
+
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+}
+
+
+.box .button_01,
+.box .button_02 {
+    color: white;
+    font-weight: bolder;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.box .button_01 {
+    background-color: cornflowerblue;
+}
+
+.box .button_02 {
+    background-color: rgb(65, 188, 65);
+}
+
+.box .button_01:hover {
+    background-color: rgb(80, 119, 192);
+    transition: 0.4s ease-in-out;
+}
+
+.box .button_02:hover {
+    background-color: rgb(98, 219, 98);
+    transition: 0.4s ease-in-out;
+}
+
+/* <<============================== FOOTER ==============================>> */
+
+.footer_01 {
+    background-color: #222222;
+    color: white;
+    /* height: 500px; */
+    text-align: center;
+}
+
+.fooot {
+    display: flex;
+    /* background-color: gray; */
+    padding: 75px;
+    justify-content: space-evenly;
+}
+
+.foot_01 {
+    padding-top: 100px;
+}
+
+.foot_01 h2 {
+    padding-bottom: 13px;
+}
+
+.foot_02 {
+    background-color: white;
+    color: black;
+    border-radius: 9px;
+    padding: 35px;
+    padding-bottom: 40px;
+}
+
+.foot_02 .subscribe {
+    color: cornflowerblue;
+    padding-bottom: 20px;
+    font-size: 23px;
+}
+
+.foot_02 .enter_ea {
+    font-size: 13px;
+}
+
+.foot_02 .sign_up {
+    width: 100%;
+    border: none;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    padding: 13px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+#text_area {
+    border: 1px solid skyblue;
+}
+
+.foot_03 {
+    text-align: justify;
+    padding: 25px 250px 50px;
+    line-height: 2.5;
+}
+
+.foot_03 a {
+    text-decoration: none;
+}
+
+.footer_02 {
+    font-size: small;
+    display: grid;
+    grid-template-areas: "language type general subscribe";
+    padding: 100px 250px 0px 250px;
+    background-color: aliceblue;
+    gap: 40px;
+}
+
+.footer_02 ul {
+    list-style: none;
+}
+
+.footer_02 h3 {
+    padding-bottom: 15px;
+}
+
+#eea {
+    border: 1px solid skyblue;
+    border-style: groove;
+    border-radius: 6px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    width: 225px;
+}
+
+.footer_02 .subscribe_btn {
+    width: 256px;
+    border: none;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.footer_03 {
+    font-size: small;
+    background-color: aliceblue;
+    padding: 50px 50px;
+}
+
+.footer_03 .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cookie {
+    background-color: #222222;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    width: fit-content;
+    padding: 5px 13px;
+    border-radius: 15px 15px 0px 2px;
+
+    position: fixed;
+    bottom: 0;
+    left: 10px;
+}
